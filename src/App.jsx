@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // IMPORTANT: Yahan deployment ke baad backend ka URL aayega
-const API_URL = "http://localhost:5000";
+const API_URL = "https://air-for-share-backend-with-mongodb.vercel.app";
 
 function App() {
   const [text, setText] = useState("");
